@@ -22,6 +22,27 @@ text-align: center;
 height: 950px; 
 background-size: cover;
 }
+
+.tint {
+	position: relative;
+	float: left;
+	cursor: pointer;
+}
+
+.tint:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,255,255, 0.5);
+	-moz-transition: background .3s linear;
+	-webkit-transition: background .3s linear;
+	-o-transition: background .3s linear;
+	transition: background .3s linear;
+}
  
 </style>
 </head>
@@ -29,13 +50,16 @@ background-size: cover;
 <br>
 <br>
 <br>
+<figure class="tint">
+  
+
 <h1>EXTRA CREDIT</h1>
 <h4>code this website</h4>
 <section>
  <button>START NOW!</button>
 <p style="color:coral">it's easy if you know your <span style="color:blue">HTML</span> and <span style="color:blue"> CSS</p>
 <p style="color:blue">DUE WEEK 6</p>
-</section>
+</section></figure>
 
 </body>
 </html>
