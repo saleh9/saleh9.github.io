@@ -28,7 +28,7 @@ div {
 caption {
   font-weight: bold;
   text-transform: uppercase;
-  background-color: none;
+  background-color: black;
   color:#fff;
 }
 table {
