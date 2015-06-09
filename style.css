@@ -28,7 +28,7 @@ div {
 caption {
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #A34719;
+  background-color: none;
   color:#fff;
 }
 #Mytable {
