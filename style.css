@@ -31,8 +31,10 @@ caption {
   background-color: #669999;
   color:#fff;
 }
+.Mytable {
+    position: absolute;
+}
 table {
-   position: absolute;
     width: 600px;
     border: 1px;
     background-color: #DDD;
