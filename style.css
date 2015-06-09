@@ -32,7 +32,7 @@ caption {
   color:#fff;
 }
 table {
-    align-self: center;
+   position: absolute;
     width: 600px;
     border: 1px;
     background-color: #DDD;
