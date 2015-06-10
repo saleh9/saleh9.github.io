@@ -47,3 +47,9 @@ table {
     margin: 0 auto;
     margin-top:20px;
   }
+  
+  .resume {
+      height: 700px;
+    width: 600px;
+  }
+  }
